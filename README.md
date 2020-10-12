@@ -2,7 +2,6 @@
 Deep Learning based Sentiment Analysis from Surprise to Anger (S2A)
 
 ## Usage (Python 3)
-
 ### Import Library
 ```
 import requests
@@ -73,11 +72,11 @@ def analyze_sentiment(row):
 target_df = target_df.apply(lambda x: analyze_sentiment(x), axis=1)
 ```
 
-
-
 ### Supported Languages
 
 Korean (한국어)
+
+---
 
 - **Maintainer**
 Byeongho Kang (byeongho.kang@yahoo.com)
